@@ -1,20 +1,20 @@
 ---
-title: Get Summries
+title: Get All Summries
 parent: Summries
 grand_parent: Summry Endpoints
 has_children: false
 # nav_order: 1
 ---
 
+```js
 GET /summries
 
-```json
 [
     {
         "id": int,
         "title": string, 
         "slug": string, 
-        "stores: [
+        "stores": [
             {
                 "id": int,
                 "url": string/valid url - how should user input?

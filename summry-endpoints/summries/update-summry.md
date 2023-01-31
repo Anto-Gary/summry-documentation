@@ -1,19 +1,18 @@
 ---
-title: Update Summry
+title: Update Summry By ID
 parent: Summries
 grand_parent: Summry Endpoints
 has_children: false
 # nav_order: 1
 ---
 
+### Update Summry By ID
 
-POST (PATCH?) /summries/{id}
+```js
+PATCH /summries/{id}
 
-only new stuff gets sent
-
-```json
 {
-    "stores: [
+    "stores": [
         {
             "url": string/valid url - how should user input?
         }

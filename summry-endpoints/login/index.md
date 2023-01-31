@@ -6,17 +6,14 @@ has_children: false
 nav_order: 1
 ---
 
-#### **login to UI**
+## /login
 
-**POST /login**
-
-req:
-
-```json
+```js
+POST {{base_url}}/api/Login
 Content-Type: application/json
 
-{
-"username": "{{username}}",
-"password": "{{password}}"
-}
+  {
+    "email": string,
+    "password": string
+  }
 ```

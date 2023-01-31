@@ -6,13 +6,12 @@ has_children: false
 nav_order: 2
 ---
 
-DELETE user
 
-/users/{id}
+```js
+DELETE /users/{id}
 
-```json
 {
-"deleted": boolean
+    "deleted": boolean
 }
 ```
 

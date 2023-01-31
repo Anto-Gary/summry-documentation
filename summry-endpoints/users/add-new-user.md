@@ -6,19 +6,15 @@ has_children: false
 # nav_order: 2
 ---
 
+```js
 POST /users
 
-Add new User
-
-req:
-
-```json
 {
-"username": string,
-"password": string,
-"firstName": string,
-"lastName": string,
-"email": string
+    "username": string,
+    "password": string,
+    "firstName": string,
+    "lastName": string,
+    "email": string
 }
 ```
 

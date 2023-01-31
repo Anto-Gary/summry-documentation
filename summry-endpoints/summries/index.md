@@ -6,13 +6,12 @@ has_children: true
 ---
 
 
-# Endpoints
+## /summries
 
-## Summries
+### Content
 
-Summries Fields:
 
-```json
+```js
 [
     {
         "id": int,
