@@ -1,6 +1,6 @@
 ---
 title: Entity Relationship Diagram
-parent: Database Diagrams
+parent: Design
 has_children: false
 nav_order: 1
 ---

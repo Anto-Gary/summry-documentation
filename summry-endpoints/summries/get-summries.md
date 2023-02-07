@@ -23,8 +23,8 @@ GET /summries
         "queries": [
             {
                 "id": int,
-                "producer": string,
-                "bottle": string,
+                "merchant": string,
+                "product": string,
                 "price": float
             }
         ]

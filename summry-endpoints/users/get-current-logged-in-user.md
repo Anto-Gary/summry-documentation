@@ -16,8 +16,17 @@ GET /users/me
         "firstName": string
         "lastName": string
         "email": string/valid email
-        "summries": [id1: int, id2: int, ...] or empty if none
-        ~~password?:~~
+        "summries": [
+            {
+                "id": int,
+                "title": string, 
+                "slug": string, 
+                // should this endpoint show stores & queries too?
+                // "stores": [],
+                // "queries": []
+            }
+        ]
+        ~~password?:~~ // no
     }
 ]
 ```

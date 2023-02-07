@@ -9,7 +9,7 @@ has_children: false
 ### Update Summry By ID
 
 ```js
-PATCH /summries/{id}
+PUT /summries/{id}
 
 {
     "stores": [
@@ -19,8 +19,8 @@ PATCH /summries/{id}
     ],
     "queries": [
         {
-            "producer": string,
-            "bottle": string,
+            "merchant": string,
+            "product": string,
             "price": float
         }
     ]

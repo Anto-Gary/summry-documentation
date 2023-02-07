@@ -28,8 +28,8 @@ has_children: true
         "queries": [
             {
                 "id": int,
-                "producer": string,
-                "bottle": string,
+                "merchant": string,
+                "product": string,
                 "price": float
             }
         ]
