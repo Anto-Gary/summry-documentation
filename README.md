@@ -8,7 +8,7 @@ nav_order: 1
 
 [Install Jekyll for Your OS](https://jekyllrb.com/docs/installation/)
 
-```bash
+```bashh
 git clone git@github.com:Anto-Gary/summry-documentation.git && cd summry-documentation
 ```
 
